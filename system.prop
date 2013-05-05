@@ -1,0 +1,11 @@
+# system.prop for SCH-i545
+#
+
+# cannot take spaces
+rild.libargs=-d /dev/smd0
+
+# Fields for custom RIL
+# MAX PROP NAME is 31 chars --|
+ro.telephony.ril_class=SamsungCDMAQualcommRIL
+telephony.lteOnCdmaDevice=1
+
