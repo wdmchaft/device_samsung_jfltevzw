@@ -1,8 +1,17 @@
 # system.prop for SCH-i545
 #
-
 # cannot take spaces
 rild.libargs=-d /dev/smd0
 
+ro.cdma.home.operator.numeric=310004
 telephony.lteOnCdmaDevice=1
+ro.cdma.home.operator.alpha=Verizon
+ro.telephony.default_network=8
 
+persist.radio.snapshot_enabled=1
+persist.radio.snapshot_timer=22
+ro.config.multimode_cdma=1
+ro.config.combined_signal=true
+ro.gsm.data_retry_config=max_retries=infinite,5000,5000,60000,120000,480000,900000
+DEVICE_PROVISIONED=1
+persist.eons.enabled=false
