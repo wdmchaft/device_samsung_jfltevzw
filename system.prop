@@ -3,10 +3,10 @@
 # cannot take spaces
 rild.libargs=-d /dev/smd0
 
-ro.cdma.home.operator.numeric=310004
-telephony.lteOnCdmaDevice=1
+ro.cdma.home.operator.numeric=311480
 ro.cdma.home.operator.alpha=Verizon
 ro.telephony.default_network=8
+telephony.lteOnCdmaDevice=1
 
 persist.radio.snapshot_enabled=1
 persist.radio.snapshot_timer=22
