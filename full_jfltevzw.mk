@@ -29,7 +29,8 @@ PRODUCT_PACKAGES += \
     loki.sh \
     loki_flash \
     loki_patch \
-    valid_bootloaders
+    loki_bootloaders \
+    unlocked_bootloaders
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
@@ -41,4 +42,4 @@ PRODUCT_NAME := full_jfltevzw
 PRODUCT_DEVICE := jfltevzw
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_MODEL := SCH-i545
+PRODUCT_MODEL := SCH-I545
